@@ -24,12 +24,18 @@
     <ClCompile Include="Task_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Task_2_Auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Service functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Task_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_2_Auto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

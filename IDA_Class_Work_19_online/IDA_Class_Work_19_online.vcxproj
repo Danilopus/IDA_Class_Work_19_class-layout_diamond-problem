@@ -130,10 +130,12 @@
     <ClCompile Include="Task_1.cpp" />
     <ClCompile Include="!_Main.cpp" />
     <ClCompile Include="Service functions.cpp" />
+    <ClCompile Include="Task_2_Auto.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Task_1.h" />
     <ClInclude Include="Service functions.h" />
+    <ClInclude Include="Task_2_Auto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
