@@ -7,7 +7,7 @@ class MechanismPart
 	double _weight;	
 };
 
-class Wheels : public MechanismPart
+class Wheels : virtual public MechanismPart
 {
 	int _Size;
 public:
@@ -17,7 +17,7 @@ public:
 	}
 };
 
-class Body : public MechanismPart
+class Body : virtual public MechanismPart
 {
 	int _body_class;
 public:
@@ -30,7 +30,7 @@ public:
 		std::cout << "\nDoors: closing";
 	}
 };
-class Engine
+class Engine: virtual public MechanismPart
 {
 	double _horsepower;
 public:
@@ -40,10 +40,15 @@ public:
 
 
 
-class Automobile
+//class Automobile
+//{
+//	Engine engine;
+//	Body body;
+//	Wheels wheels;
+//};
+
+class Automobile: public Engine, public	Body,public	Wheels
 {
-	Engine engine;
-	Body body;
-	Wheels wheels;
+
 };
 
