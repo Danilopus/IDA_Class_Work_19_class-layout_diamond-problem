@@ -50,7 +50,7 @@
 
 
 //Task 1
-/*
+//*
 void F00(const Base& obj)
 {
 	std::cout << obj.Get_Name() << "\n";
@@ -60,7 +60,9 @@ void Task_1()
 	Base Base_obj("Base_object");
 	Item Item_obj("Item_object", 15.00);
 	Creature Creature_obj("Creature_object", 60.00);
-	Robot Robot_obj;
+	//Robot Robot_obj;
+	Robot Robot_obj("Robo", 50, 300);
+
 
 	Robot_obj.Base::Set_Name("robot_obj");
 
@@ -76,8 +78,7 @@ void Task_1()
 	// class Creature : virtual public Base  class Item : virtual public Base 
 	Robot_obj.Set_Name("robot_obj"); 
 
-}
-*/
+}//*/
 //Task 2
 void Task_2()
 {
@@ -101,7 +102,7 @@ int main()
 srand(time(NULL));
 		
 	
-//Task_1();
+Task_1();
 Task_2();
 Task_3();
 

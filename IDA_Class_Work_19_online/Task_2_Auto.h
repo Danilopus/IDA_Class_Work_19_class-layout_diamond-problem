@@ -32,13 +32,13 @@ public:
 
 	void Doors_open()
 	{
-		if (_is_door_open) std::cout << "\nDoors: opening";
+		if (!_is_door_open) std::cout << "\nDoors: opening";
 		_is_door_open = 1;
 
 	}
 	void Doors_close()
 	{
-		if (!_is_door_open) std::cout << "\nDoors: closing";
+		if (_is_door_open) std::cout << "\nDoors: closing";
 		_is_door_open = 0;
 
 	}
