@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Task_1.cpp" />
     <ClCompile Include="!_Main.cpp" />
     <ClCompile Include="Service functions.cpp" />
     <ClCompile Include="Task_2_Auto.cpp" />

@@ -8,6 +8,8 @@
 //My own headers
 #include "Service functions.h"
 #include "Task_1.h"
+#include "Task_2_Auto.h"
+
 
 
 // Class Work 12.07.2023 online -------------------------------------------	
@@ -48,6 +50,7 @@
 
 
 //Task 1
+/*
 void F00(const Base& obj)
 {
 	std::cout << obj.Get_Name() << "\n";
@@ -74,10 +77,16 @@ void Task_1()
 	Robot_obj.Set_Name("robot_obj"); 
 
 }
+*/
 //Task 2
 void Task_2()
 {
-	
+	Automobile automobile("BMW M5", 1, 18, 300);
+	automobile.Doors_close();
+	automobile.Doors_open();
+	automobile.Ignition_On();
+	automobile.Go_forward();
+	automobile.Ignition_Off();
 }
 //Task 3
 void Task_3()
@@ -92,7 +101,7 @@ int main()
 srand(time(NULL));
 		
 	
-Task_1();
+//Task_1();
 Task_2();
 Task_3();
 

@@ -21,9 +21,6 @@
     <ClCompile Include="Service functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Task_1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Task_2_Auto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
