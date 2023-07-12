@@ -26,16 +26,21 @@ public:
 class Body : virtual public MechanismPart
 {
 	int _body_class;
+	bool _is_door_open;
 public:
 	Body(int body_class): _body_class(body_class){}
 
 	void Doors_open()
 	{
-		std::cout << "\nDoors: opening";
+		if (_is_door_open) std::cout << "\nDoors: opening";
+		_is_door_open = 1;
+
 	}
 	void Doors_close()
 	{
-		std::cout << "\nDoors: closing";
+		if (!_is_door_open) std::cout << "\nDoors: closing";
+		_is_door_open = 0;
+
 	}
 };
 class Engine: virtual public MechanismPart
